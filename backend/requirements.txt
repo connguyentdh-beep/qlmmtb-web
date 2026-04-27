@@ -1,7 +1,7 @@
 fastapi==0.95.2
 uvicorn==0.22.0
 sqlalchemy
-psycopg[binary]
+psycopg2-binary
 python-dotenv
 pandas
 python-multipart
