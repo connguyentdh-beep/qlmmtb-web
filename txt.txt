@@ -1,0 +1,29 @@
+PROJECT: QLMMTB WEB
+PATH: C:\Users\Admin\Desktop\qlmmtb-web
+
+BACKEND:
+- FastAPI
+- PostgreSQL
+- CMD:
+  cd C:\Users\Admin\Desktop\qlmmtb-web\backend
+  .venv\Scripts\activate
+  uvicorn app.main:app --reload
+
+FRONTEND:
+- React + Vite
+- CMD:
+  cd C:\Users\Admin\Desktop\qlmmtb-web\frontend
+  npm run dev
+
+DONE:
+- Danh mục thiết bị chạy ổn
+- Import CSV chạy ổn
+- Sửa/Xóa thiết bị chạy
+- pm_plans_v1 table created
+- /docs đã có pm-plans
+
+CURRENT ISSUE:
+- Frontend tab Kế hoạch PM chưa hiện đúng, cần cập nhật App.jsx bản PM v1
+
+NOTE:
+- Hướng dẫn từng bước, vì người dùng không phải coder chuyên nghiệp.
