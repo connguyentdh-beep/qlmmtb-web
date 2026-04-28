@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://qlmmtb-api.onrender.com";
 
 function getTexts(language = "vi") {
   const texts = {
